@@ -5,8 +5,8 @@ from PIL import Image
 
 app = Flask(__name__)
 
-rekognition = boto3.client('rekognition', region_name='us-east-1')
-dynamodb = boto3.client('dynamodb', region_name='us-east-1')
+rekognition = boto3.client('rekognition', region_name='ap-south-1')
+dynamodb = boto3.client('dynamodb', region_name='ap-south-1')
 
 @app.route('/', methods=['GET', 'POST'])
 def index():
