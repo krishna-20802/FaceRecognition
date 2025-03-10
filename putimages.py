@@ -21,12 +21,10 @@ images=[('image_01.jpg','Virat Kohli'),
       ('image_15.jpg','Ben stokes'),
       ('image_16.jpg','Kane Williamson'),
       ('image_17.jpg','Jos Buttler'),
-      ('image_18.jpeg','Raj Desai'),
-      ('image_19.jpeg','Raj Desai'),
-      ('image_20.jpeg','Raj Desai'),
-      ('image_21.jpeg','Bajrang Desai'),
-      ('image_22.jpeg','Nisha kharvi'),
-      ('image_23.jpeg','Nisha Kharvi')
+      ('image_18.jpg','Raj Desai'),
+      ('image_19.jpg','Raj Desai'),
+      ('image_20.jpg','Raj Desai'),
+      ('image_21.jpg','Bajrang Desai')
       ]
 
 # Iterate through list to upload objects to S3   
